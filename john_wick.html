@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wick</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C0BMx-qxsP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=iNCoYmuAo44" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small>  John Wick</small></h3><br>
+                <h3>Duración : <small> 	114 minutos </small></h3><br>
+                <h3>Género : <small> Acción</small></h3><br>
+                <h3>Actores : <span> <a href="https://es.wikipedia.org/wiki/Keanu_Reeves" target="_blank" rel="noopener noreferrer">Keanu Reeves</a>, <a href="https://es.wikipedia.org/wiki/Ian_McShane" target="_blank" rel="noopener noreferrer">Ian McShane</a>, <a href="https://es.wikipedia.org/wiki/Laurence_Fishburne" target="_blank" rel="noopener noreferrer">Laurence Fishburne</a> </span></h3><br>
+                <p>John Wick, interpretado por Keanu Reeves (Matrix, Pactar con el diablo) es un antiguo asesino a sueldo que observa impasible cómo un ladrón roba su coche, un Ford Mustang del 69, y mata al perro que su mujer le regaló. Wick entonces persigue
+                    al delincuente y descubre que su padre es un jefe mafioso de Nueva York y que ha puesto una alta recompensa a cambio de su cabeza. Casualmente la persona contratada para darle caza es un sicario, encarnado por Willem Dafoe (Spiderman),
+                    un gran amigo y ex compañero suyo, que le recomendó abandonar la peligrosa profesión después de la muerte de su mujer.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="hobbit_5_ejercitos.html" class="ml-20"><img src="img/hobbit2.webp" alt="hobbit 5 ejercitos"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="destino_final.html" class="ml-20"><img src="img/destino_final_3.webp" alt="destino_final"></a>
+            <a href="22_jump_street.html" class="ml-20"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            <a href="hasta_el_ultimo_hombre.html" class="ml-20"><img src="img/hasta_el_ultimo.webp" alt="hasta el ultimo hombre"></a>
+        </section>
+    </main>
+</body>
+
+</html>

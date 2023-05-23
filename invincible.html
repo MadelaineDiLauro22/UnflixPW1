@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invincible</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/invincible.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CC4dWgEJq_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=Z2vC7zoNSUM" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small>  Invencible </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capítulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small>Acción, Drama, Superhéroes, Suspenso</small></h3><br>
+                <h3>Actores : <span> <a href="https://es.wikipedia.org/wiki/Steven_Yeun" target="_blank" rel="noopener noreferrer">Steven Yeun</a>, <a href="https://es.wikipedia.org/wiki/Sandra_Oh" target="_blank" rel="noopener noreferrer">Sandra Oh</a>, <a href="https://es.wikipedia.org/wiki/J._K._Simmons" target="_blank" rel="noopener noreferrer">J. K. Simmons</a> </span></h3><br>
+                <p>Mark Grayson es un adolescente normal, excepto por el hecho de que su padre Nolan es Omni-man, el superhéroe más fuerte del planeta. Poco después de su decimoséptimo cumpleaños, Mark comienza a desarrollar sus propios poderes y entra en
+                    la tutela de su padre. A medida que Mark utiliza sus poderes para el bien, descubre que el legado de su padre puede no ser tan heroico como parece.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="the_boys.html" class="ml-20"><img src="img/the_boys.webp" alt="the boys"></a>
+            <a href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher"></a>
+            <a href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="22_jump_street.html" class="ml-20"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            <a href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+        </section>
+    </main>
+</body>
+
+</html>

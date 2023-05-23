@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie Land</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DjelrTXP21I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=ivMza6MIoFI" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small>  Zombieland: Double Tap </small></h3><br>
+                <h3>Duración : <small> 	99 minutos </small></h3><br>
+                <h3>Género : <small> 	Comedia, Comedia de terror, Acción, Terror, Zombis</small></h3><br>
+                <h3>Actores : <span> <a href="https://es.wikipedia.org/wiki/Woody_Harrelson" target="_blank" rel="noopener noreferrer">Woody Harrelson</a>, <a href="https://es.wikipedia.org/wiki/Jesse_Eisenberg" target="_blank" rel="noopener noreferrer">Jesse Eisenberg</a>, <a href="https://es.wikipedia.org/wiki/Emma_Stone" target="_blank" rel="noopener noreferrer">Emma Stone</a> </span></h3><br>
+                <p>Regresa el ecléctico grupo formado por Wichita (Emma Stone), Columbus (Jesse Eisenberg), Tallahassee (Woody Harrelson) y Little Rock (Abigail Breslin). En el mundo post-apocalíptico dominado por el caos que les ha tocado vivir, deberán
+                    enfrentarse a una nueva amenaza zombi. Esta vez, los cazadores de zombis deberán plantar cara a nuevos tipos de zombis, además de a algunos nuevos supervivientes humanos. Claro que, lo más complicado será cómo gestionar a esta singular
+                    e improvisada familia.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="legally_blonde.html" class="ml-20"><img src="img/legalmente_rubia.webp" alt="legalmente rubia"></a>
+            <a href="destino_final.html" class="ml-20"><img src="img/destino_final_3.webp" alt="destino final"></a>
+            <a href="22_jump_street.html" class="ml-20"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            <a href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+        </section>
+    </main>
+</body>
+
+</html>

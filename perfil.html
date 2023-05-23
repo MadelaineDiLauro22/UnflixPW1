@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/perfil.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html" class="border_bottom">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="contenido">
+            <article id="fotoperfil">
+                <img src="img/foto_perfil.jpeg" alt="Perfil">
+                <h2 id="nombre"></h2>
+            </article>
+            <article id="datos">
+                <form id="form1">
+                    <h3 class="w-10">Información</h3>
+                    <div class="w-100 margen" id="div-email">
+                        <h3 class="w-50"> Email: </h3>
+                        <h3 class="w-50">usuario@gmail.com</h3>
+                    </div>
+                    <div class="w-100  margen" id="div-contraseña">
+                        <h3 class="w-50"> Contraseña: </h3>
+                        <h3 class="w-50">**********</h3>
+                    </div>
+                    <div class="w-100 margen" id="div-telefono">
+                        <h3 class="w-50"> Teléfono: </h3>
+                        <h3 class="w-50"> 11-5589-3524</h3>
+                    </div>
+                    <div class="w-100  margen" id="div-nuevacontraseña">
+                        <label for="password" class="w-50">Nueva contraseña</label>
+                        <input type="password" name="password" id="password" class="w-50">
+                    </div>
+                    <div class="w-100  margen" id="div-repetircontraseña">
+                        <label for="new-password" class="w-50">Repetir contraseña</label>
+                        <input type="password" name="new-password" id="new-password" class="w-50">
+                    </div>
+                </form>
+            </article>
+            <article id="pagos">
+                <form id="form2">
+                    <h3 class="w-10">Métodos de pago</h3>
+                    <div id="div-tarjeta">
+                        <input type="radio" id="tarjeta" name="opcion" value="tarjeta" checked>
+                        <label for="tarjeta" class="label" id="id-tarjeta">Tarjeta</label><br>
+                    </div>
+                    <div id="columna">
+                        <div id="div-numerotarjeta">
+                            <label for="numero_tarjeta" class="label">Número de tarjeta</label>
+                            <input type="number" name="numero_tarjeta" id="numero_tarjeta" placeholder="Número de Tarjeta">
+                        </div>
+                        <div id="div-fechavenc">
+                            <label for="fecha_ven" class="label" id="div-fecha">Fecha de Expiracion</label>
+                            <select name="fecha_ven" id="fecha_ven">
+                                <option value="" disabled selected>Mes</option>
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Mayo</option>
+                                <option value="6">Junio</option>
+                                <option value="7">Julio</option>
+                                <option value="8">Agosto</option>
+                                <option value="10">Septiembre</option>
+                                <option value="9">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <select name="fecha_ven" id="fecha_venaño">
+                                <option value="" disabled selected>Año</option>
+                                <option value="1">2022</option>
+                                <option value="2">2023</option>
+                                <option value="3">2024</option>
+                                <option value="4">2025</option>
+                                <option value="5">2026</option>
+                                <option value="6">2027</option>
+                                <option value="7">2028</option>
+                                <option value="8">2029</option>
+                                <option value="9">2030</option>
+                                <option value="10">2031</option>
+                                <option value="11">2032</option>
+                                <option value="12">2033</option>
+                                <option value="13">2034</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="columna2">
+                        <div id="div-titular">
+                            <label for="titular" class="label">Titular de la Tarjeta</label>
+
+                            <input type="text" name="titular" id="titular" placeholder="Nombre del titular">
+
+                        </div>
+                        <div id="div-cod">
+                            <label for="cod_seguridad" class="label" id="label-cod">Código de Seguridad</label>
+
+                            <input type="number" name="cod_seguridad" id="cod_seguridad" placeholder="XXX">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio" id="cupon_pago" name="opcion" value="cupon">
+                        <label for="cupon_pago" class="label">Cupón de pago</label>
+                        <br>
+                        <div id="div-metodospago">
+                            <input type="radio" id="pagofacil" name="cupon" value="pago_facil">
+                            <label for="pago_facil">Pago fácil</label>
+                            <input type="radio" id="rapipago" name="cupon" value="rapi_pago">
+                            <label for="rapipago"> RapiPago</label>
+                        </div>
+                        <br>
+                    </div>
+                    <div>
+                        <input type="radio" id="transferencia" name="opcion" value="transferencia">
+                        <label for="transferencia" class="label">Transferencia Bancaria</label>
+                        <br>
+                        <div class="transferencia">
+                            <h3 id="cbu">CBU: 2183909411100018971375</h3>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <section id="botones">
+            <button type="button" id="confirmar">Guardar cambios</button>
+            <button id="cancelar" type="reset">Cancelar Suscripcion</button>
+        </section>
+        <div id="mensaje"></div>
+    </main>
+</body>
+
+</html>

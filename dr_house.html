@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. House</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/dr_house.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1nqW4g_S0wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=b7OkWcNuLZk" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Titulo : <small> Dr. House</small></h3>
+                <br />
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                          <option value="" disabled="true" selected>Seleccionar Temporada</option>
+                          <option value="temp1">Temporada 1</option>
+                          <option value="temp2">Temporada 2</option>
+                          <option value="temp3">Temporada 3</option>
+                          <option value="temp4">Temporada 4</option>
+                          <option value="temp5">Temporada 5</option>
+                          <option value="temp6">Temporada 6</option>
+                          <option value="temp7">Temporada 7</option>
+                          <option value="temp8">Temporada 8</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capitulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                          <option value="" selected disabled>Seleccionar Capitulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br />
+                <h3>Género : <small>Drama</small></h3>
+                <br />
+                <h3>
+                    Actores :
+                    <span>
+              <a
+                href="https://es.wikipedia.org/wiki/Hugh_Laurie"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Hugh Laurie</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Robert_Sean_Leonard"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Robert Sean Leonard</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Lisa_Edelstein"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lisa Edelstein</a
+              >,
+
+              <a
+                href="https://es.wikipedia.org/wiki/Jesse_Spencer"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jesse Spencer</a
+              >,
+
+              <a
+                href="https://es.wikipedia.org/wiki/Jennifer_Morrison"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jennifer Morrison</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Omar_Epps"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Omar Epps</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Kal_Penn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Kal Penn</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Olivia_Wilde"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Olivia Wilde</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Peter_Jacobson"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Peter Jacobson</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Amber_Tamblyn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Amber Tamblyn</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Charlyne_Yi"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Charlyne Yi</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Odette_Annable"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Odette Annable</a
+              >
+            </span>
+                </h3>
+                <br />
+                <p>
+                    En el Princenton Plainsboro de Nueva Jersey, el Dr. Gregory House, un singular genio de la medicina, se encarga de resolver casos como lo haría Sherlock Holmes. De forma astuta juega con la psicología de la Dra. Lisa Cuddy, su mejor amigo, el oncólogo
+                    James Wilson, y del resto de su equipo de trabajo.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="good_doctor.html" class="ml-20"><img src="img/good_doctor.webp" alt="good_doctor" /></a>
+            <a href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher" /></a>
+            <a href="monk.html" class="ml-20"><img src="img/monk.webp" alt="monk" /></a>
+            <a href="mad_men.html" class="ml-20"><img src="img/mad_men.webp" alt="mad_men" /></a>
+        </section>
+    </main>
+</body>
+
+</html>

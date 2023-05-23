@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/home.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home" class="border_bottom">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="select_busc">
+            <form action="" class="form_selector">
+                <label for="selector-cat">Categorías</label>
+                <select name="selector-cat" id="selector-cat" class="selector_items">
+                    <option value="" disabled selected>Seleccionar Categoría</option>
+                    <option value="1">Acción</option>
+                    <option value="2">Animes</option>
+                    <option value="3">Comedias</option>
+                    <option value="4">Belico</option>
+                    <option value="5">Dramas</option>
+                    <option value="6">Romances</option>
+                    <option value="7">Sci-fi y fantasía</option>
+                    <option value="8">Terror</option>
+                    <option value="9">Thrillers</option>
+                    <option value="10">Documentales</option>
+                    <option value="">Ver Todas</option>
+                </select>
+            </form>
+            <form class="buscador" action="">
+                <input type="text" id="searchInput" placeholder="Buscar Por Nombre">
+            </form>
+        </section>
+        <section id="banner">
+            <a name="video" id="invencible" href="invincible.html"><img src="img/invencible.webp" alt="invencible"></a>
+            <a name="video" id="zl" href="zombie_land.html" class="d-none"><img src="img/zombie_land.webp" alt="zombie land"></a>
+            <a name="video" id="salvajes" href="salvajes.html" class="d-none"><img src="img/salvajes.webp" alt="salvajes"></a>
+        </section>
+        <section id="contenido">
+            <h2>Continuar Viendo</h2>
+            <article class="carrusell" id="continuarviendo">
+                <a name="video" id="himym" href="how_i_meet_your_mother.html" class="ml-20"><img src="img/himym.webp" alt="como conoci a tu madre"></a>
+                <a name="video" id="hd" href="hobbit_desolacion.html" class="ml-20"><img src="img/hobbit.webp" alt="hobit desolacion"></a>
+                <a name="video" id="house" href="dr_house.html" class="ml-20"><img src="img/house.webp" alt=""></a>
+                <a name="video" id="22js" href="22_jump_street.html" class="ml-20"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            </article>
+            <h2>Recomendaciones</h2>
+            <article class="carrusell" id="recomendaciones">
+                <a name="video" id="h5e" href="hobbit_5_ejercitos.html" class="ml-20"><img src="img/hobbit2.webp" alt="hobbit 5 ejercitos"></a>
+                <a name="video" id="vls" href="vindland_saga.html" class="ml-20"><img src="img/vinland.webp" alt="vinland"></a>
+                <a name="video" id="ehc" href="everybody_hate_chris.html" class="ml-20"><img src="img/chris.webp" alt="todos odian a chris"></a>
+                <a name="video" id="lb" href="legally_blonde.html" class="ml-20"><img src="img/legalmente_rubia.webp" alt="legalmente rubia"></a>
+                <a name="video" id="fb" href="fleabag.html" class="ml-20"><img src="img/fleabag.webp" alt="fleabag"></a>
+                <a name="video" id="tb" href="the_boys.html" class="ml-20"><img src="img/the_boys.webp" alt="the boys"></a>
+                <a name="video" id="mm" href="mad_men.html" class="ml-20"><img src="img/mad_men.webp" alt="mad men"></a>
+                <a name="video" id="df" href="destino_final.html" class="ml-20"><img src="img/destino_final_3.webp" alt="destino final"></a>
+                <a name="video" id="l8" href="la_octava.html" class="ml-20"><img src="img/la_octava.webp" alt="la octava"></a>
+            </article>
+            <h2>Lo más nuevo</h2>
+            <article class="carrusell" id="masnuevo">
+                <a name="video" id="cr" href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+                <a name="video" id="monk" href="monk.html" class="ml-20"><img src="img/monk.webp" alt="monk"></a>
+                <a name="video" id="yadt" href="yo_antes_de_ti.html" class="ml-20"><img src="img/yo_antes_de_ti.webp" alt="yo antes de ti"></a>
+                <a name="video" id="gd" href="good_doctor.html" class="ml-20"><img src="img/good_doctor.webp" alt="the good doctor"></a>
+                <a name="video" id="jw" href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+                <a name="video" id="um" href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+                <a name="video" id="sp" href="super_store.html" class="ml-20"><img src="img/superstore.webp" alt="superstore"></a>
+                <a name="video" id="pr" href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher"></a>
+                <a name="video" id="heuh" href="hasta_el_ultimo_hombre.html" class="ml-20"><img src="img/hasta_el_ultimo.webp" alt="hasta el ultimo hombre"></a>
+                <a name="video" id="kev" href="kevin.html" class="ml-20"><img src="img/kevin.webp" alt="kevin"></a>
+            </article>
+        </section>
+        <section id="contenido_buscador" class="d-none">
+            <h2 class="mt-10" id="no_results">Lo sentimos, no hay resultados para su búsqueda, por favor ajuste sus parámetros</h2>
+            <a class="mt-10" id="v1" href="22_jump_street.html"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            <a class="mt-10" id="v2" href="casino_royale.html"><img src="img/casino_royale.webp" alt="007"></a>
+            <a class="mt-10" id="v3" href="destino_final.html"><img src="img/destino_final_3.webp" alt="destino final"></a>
+            <a class="mt-10" id="v4" href="hasta_el_ultimo_hombre.html"><img src="img/hasta_el_ultimo.webp" alt="hasta el ultimo hombre"></a>
+            <a class="mt-10" id="v5" href="hobbit_5_ejercitos.html"><img src="img/hobbit2.webp" alt="hobbit 5 ejercitos"></a>
+            <a class="mt-10" id="v6" href="hobbit_desolacion.html"><img src="img/hobbit.webp" alt="hobit desolacion"></a>
+            <a class="mt-10" id="v7" href="john_wick.html"><img src="img/john_wick.webp" alt="john wick"></a>
+            <a class="mt-10" id="v8" href="kevin.html"><img src="img/kevin.webp" alt="kevin"></a>
+            <a class="mt-10" id="v9" href="la_octava.html"><img src="img/la_octava.webp" alt="la octava"></a>
+            <a class="mt-10" id="v10" href="legally_blonde.html"><img src="img/legalmente_rubia.webp" alt="legalmente rubia"></a>
+            <a class="mt-10" id="v11" href="yo_antes_de_ti.html"><img src="img/yo_antes_de_ti.webp" alt="yo antes de ti"></a>
+            <a class="mt-10" id="v12" href="zombie_land.html"><img src="img/zombie_land_minatura.webp" alt="yo antes de ti"></a>
+            <a class="mt-10" id="v13" href="dr_house.html"><img src="img/house.webp" alt=""></a>
+            <a class="mt-10" id="v14" href="everybody_hate_chris.html"><img src="img/chris.webp" alt="todos odian a chris"></a>
+            <a class="mt-10" id="v15" href="fleabag.html"><img src="img/fleabag.webp" alt="fleabag"></a>
+            <a class="mt-10" id="v16" href="good_doctor.html"><img src="img/good_doctor.webp" alt="the good doctor"></a>
+            <a class="mt-10" id="v17" href="how_i_meet_your_mother.html"><img src="img/himym.webp" alt="como conoci a tu madre"></a>
+            <a class="mt-10" id="v18" href="invincible.html"><img src="img/invencible.jpg" alt="como conoci a tu madre"></a>
+            <a class="mt-10" id="v19" href="mad_men.html"><img src="img/mad_men.webp" alt="mad men"></a>
+            <a class="mt-10" id="v20" href="monk.html"><img src="img/monk.webp" alt="monk"></a>
+            <a class="mt-10" id="v21" href="preacher.html"><img src="img/preacher.webp" alt="preacher"></a>
+            <a class="mt-10" id="v22" href="salvajes.html"><img src="img/salvajes.carrusel.jfif" alt="preacher"></a>
+            <a class="mt-10" id="v23" href="super_store.html"><img src="img/superstore.webp" alt="superstore"></a>
+            <a class="mt-10" id="v24" href="the_boys.html"><img src="img/the_boys.webp" alt="the boys"></a>
+            <a class="mt-10" id="v25" href="vindland_saga.html"><img src="img/vinland.webp" alt="vinland"></a>
+            <a class="mt-10" id="v26" href="unsolved_murder.html"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+        </section>
+    </main>
+
+</body>
+
+</html>

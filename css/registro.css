@@ -1,0 +1,148 @@
+main {
+    width: 100%;
+}
+
+body {
+    background-image: url(../img/fondo_de_unflix.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 10%;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(0 0 0 / 62%) !important;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+article input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(68, 67, 67);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.button-red {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-gray {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.p {
+    color: gray;
+}
+
+p a {
+    color: white;
+}
+
+label {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+
+button:hover {
+    color: black;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.radio {
+    display: inline;
+    width: 10%;
+}
+
+#facturas {
+    margin-left: 50px;
+}
+
+.tf {
+    margin-top: 5px;
+}
+
+#div-cupon {
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 47em) {
+    section {
+        width: 500px;
+        padding: 70px;
+    }
+    form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    section {
+        width: 680px;
+        padding: 70px;
+    }
+    .w-50 {
+        width: 45%;
+    }
+    form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+#mensaje {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red !important;
+}

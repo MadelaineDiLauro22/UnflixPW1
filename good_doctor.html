@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Doctor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/good_doctor.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eRWYHMpA2KI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/embed/eRWYHMpA2KI" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small> The Good Doctor </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                            <option value="temp2">Temporada 2</option>
+                            <option value="temp3">Temporada 3</option>
+                            <option value="temp4">Temporada 4</option>
+                            <option value="temp5">Temporada 5</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capítulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small>Drama, Medico</small></h3><br>
+                <h3>Actores : <span>
+                        <a href="https://es.wikipedia.org/wiki/Freddie_Highmore" target="_blank"
+                            rel="noopener noreferrer">Freddie Highmore</a>,
+                        <a href="https://es.wikipedia.org/wiki/Antonia_Thomas" target="_blank"
+                            rel="noopener noreferrer">Antonia Thomas</a>,
+                        <a href="https://es.wikipedia.org/wiki/Nicholas_Gonzalez" target="_blank"
+                            rel="noopener noreferrer">Nicolás González</a>,
+                        <a href="https://es.wikipedia.org/wiki/Chuku_Modu" target="_blank"
+                            rel="noopener noreferrer">Chuku Modu</a>,
+                        <a href="https://es.wikipedia.org/wiki/Beau_Garrett" target="_blank"
+                            rel="noopener noreferrer">Beau Garrett</a>,
+                        <a href="https://es.wikipedia.org/wiki/Hill_Harper" target="_blank"
+                            rel="noopener noreferrer">Hill Harper</a>,
+                        <a href="https://es.wikipedia.org/wiki/Richard_Schiff" target="_blank"
+                            rel="noopener noreferrer">Richard Schiff</a>,
+                        <a href="https://es.wikipedia.org/wiki/Tamlyn_Tomita" target="_blank"
+                            rel="noopener noreferrer">Tamlyn Tomita</a>.
+                    </span></h3><br>
+
+                <p> Shaun Murphy es un joven cirujano residente que tiene autismo y el síndrome de Savant, conocido como el "síndrome del sabio". Debido a estas condiciones, Shaun tiene unas habilidades mentales impresionantes. Sin embargo, tiene grandes
+                    problemas para socializar y relacionarse en su vida cotidiana. Su amigo el doctor Aaron Glassman consigue convencer a parte de la junta del Hospital San José St. Bonaventure para contratarle. Shaun tendrá que afrontar muchos prejuicios
+                    de los pacientes y de sus compañeros y demostrar su valía como cirujano pediátrico.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="dr_house.html" class="ml-20"><img src="img/house.webp" alt="dr_house"></a>
+            <a href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher"></a>
+            <a href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="mad_men.html" class="ml-20"><img src="img/mad_men.webp" alt="mad_men"></a>
+            <a href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+        </section>
+    </main>
+</body>
+
+</html>

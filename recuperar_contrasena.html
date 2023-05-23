@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperación Contraseña</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/recuperarContrasenia.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/recuperarContraseña.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="img/logo.png" alt="logo" />
+    </header>
+    <main>
+      <section id="recuperar" class="pull-center">
+        <h1>Recuperar Contraseña</h1>
+        <article>
+          <form action="index.html">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresa email"
+              class="mt-10"
+              required
+            />
+            <input
+              id="user"
+              name="user"
+              type="text"
+              placeholder="Ingrese nombre de Usuario"
+              required
+            />
+            <button type="submit" class="button-red" id="guardar">
+              Guardar Cambios
+            </button>
+            <button type="button" class="button-gray" id="cancelar">
+              Cancelar
+            </button>
+          </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

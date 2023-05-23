@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo antes de ti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FRrc2X4Uzm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=kbBKfhvkj80" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small>  Yo Antes de Ti </small></h3><br>
+                <h3>Duración : <small> 	110 minutos </small></h3><br>
+                <h3>Género : <small> Drama, Romance</small></h3><br>
+                <h3>Actores : <span> <a href="https://es.wikipedia.org/wiki/Emilia_Clarke" target="_blank" rel="noopener noreferrer">Emilia Clarke</a>, <a href="https://es.wikipedia.org/wiki/Sam_Claflin" target="_blank" rel="noopener noreferrer">Sam Claflin</a></span></h3><br>
+                <p>Lou Clark (Emilia Clarke) es una entusiasta, ingenua y alegre veinteañera que jamás ha salido de su pueblo, y que debe buscar urgentemente un trabajo para mantener a su familia. En su camino se cruza Will Traynor (Sam Claflin), un exitoso
+                    hombre de negocios que también creció en este mismo pueblo, al que ha vuelto tras un accidente accidente de coche que lo dejó impedido en una silla de ruedas. Debido a su condición, este ex aventurero ha caído en una profunda amargura,
+                    por lo que cada vez más está decidido a suicidarse.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="legally_blonde.html" class="ml-20"><img src="img/legalmente_rubia.webp" alt="legally_blonde"></a>
+            <a href="kevin.html" class="ml-20"><img src="img/kevin.webp" alt="kevin"></a>
+        </section>
+    </main>
+</body>
+
+</html>

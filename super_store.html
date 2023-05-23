@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superstore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/super_store.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0J2isDBgWmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/embed/0J2isDBgWmQ" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small> Superstore </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                            <option value="temp2">Temporada 2</option>
+                            <option value="temp3">Temporada 3</option>
+                            <option value="temp4">Temporada 4</option>
+                            <option value="temp5">Temporada 5</option>
+                            <option value="temp6">Temporada 6</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capítulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small>Comedia</small></h3><br>
+                <h3>Actores : <span>
+                        <a href="https://es.wikipedia.org/wiki/America_Ferrera" target="_blank"
+                            rel="noopener noreferrer">America Ferrera</a>,
+                        <a href="https://es.wikipedia.org/wiki/Ben_Feldman" target="_blank"
+                            rel="noopener noreferrer">Ben Feldman</a>,
+                        <a href="https://es.wikipedia.org/wiki/Lauren_Ash" target="_blank"
+                            rel="noopener noreferrer">Lauren Ash</a>,
+                        <a href="https://www.sensacine.com/actores/actor-733770/" target="_blank"
+                            rel="noopener noreferrer">Nico Santos</a>,
+                        <a href="https://es.wikipedia.org/wiki/Nichole_Bloom" target="_blank"
+                            rel="noopener noreferrer">Nichole Bloom</a>,
+                        <a href="https://www.sensacine.com/actores/actor-29561/" target="_blank"
+                            rel="noopener noreferrer">Mark McKinney</a>.
+                    </span></h3><br>
+                <p>America Ferrera y Ben Feldman estelarizan la hilarante comedia "Superstore" que trata sobre una peculiar familia de empleados de una gigantesca tienda de supermercado.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="how_i_meet_your_mother.html" class="ml-20"><img src="img/himym.webp" alt="how_i_meet_your_mother"></a>
+            <a href="salvajes.html" class="ml-20"><img src="img/salvajes.carrusel.jfif" alt="salvajes"></a>
+            <a href="monk.html" class="ml-20"><img src="img/monk.webp" alt="monk"></a>
+            <a href="dr_house.html" class="ml-20"><img src="img/house.webp" alt="dr_house"></a>
+            <a href="legally_blonde.html" class="ml-20"><img src="img/legalmente_rubia.webp" alt="legalmente_rubia"></a>
+            <a href="everybody_hate_chris.html" class="ml-20"><img src="img/chris.webp" alt="everybody_hate_chris"></a>
+        </section>
+    </main>
+</body>
+
+</html>

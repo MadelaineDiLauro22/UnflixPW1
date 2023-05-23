@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preacher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/preacher.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHcj-xjJNxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/embed/ZHcj-xjJNxM" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small> Preacher </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                            <option value="temp2">Temporada 2</option>
+                            <option value="temp3">Temporada 3</option>
+                            <option value="temp4">Temporada 4</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capítulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small>Drama,Fantasia,Terror</small></h3><br>
+                <h3>Actores : <span>
+                        <a href="https://es.wikipedia.org/wiki/Dominic_Cooper" target="_blank"
+                            rel="noopener noreferrer">Dominic Cooper</a>,
+                        <a href="https://es.wikipedia.org/wiki/Joe_Gilgun" target="_blank" rel="noopener noreferrer">Joe
+                            Gilgun</a>,
+                        <a href="https://es.wikipedia.org/wiki/Ruth_Negga" target="_blank"
+                            rel="noopener noreferrer">Ruth Negga</a>,
+                        <a href="https://es.wikipedia.org/wiki/Ian_Colletti" target="_blank"
+                            rel="noopener noreferrer">Ian Colletti</a>,
+                        <a href="https://es.wikipedia.org/wiki/Pip_Torrens" target="_blank"
+                            rel="noopener noreferrer">Pip Torrens</a>,
+                        <a href="https://es.wikipedia.org/wiki/Julie_Ann_Emery" target="_blank"
+                            rel="noopener noreferrer">Julie Ann Emery</a>,
+                        <a href="https://es.wikipedia.org/wiki/Noah_Taylor" target="_blank"
+                            rel="noopener noreferrer">Noah Taylor</a>,
+                        <a href="https://es.wikipedia.org/wiki/Graham_McTavish" target="_blank"
+                            rel="noopener noreferrer">Graham Mc Tavish</a>,
+                        <a href="https://es.wikipedia.org/w/index.php?title=Tyson_Ritter_(actor)&action=edit&redlink=1"
+                            target="_blank" rel="noopener noreferrer">Tyson Ritter</a>,
+                        <a href="https://es.wikipedia.org/wiki/Mark_Harelik" target="_blank"
+                            rel="noopener noreferrer">Mark Harelik</a>,
+
+                    </span></h3><br>
+                <p> Jesse Custer, un predicador tejano que, después de recibir "La Palabra", la capacidad de hacer que con su palabra los que le oyen hagan lo que dice, descubre que Dios ha dejado el cielo y abandonado sus funciones. Rápidamente, Jesse se
+                    convierte en la única persona capaz de rastrear a Dios. En su búsqueda por respuestas, Jesse es acompañado por Tulip O'Hare, su antigua novia, sin embargo, en el camino se encuentran con un despiadado asesino en serie conocido como
+                    El Santo de los Asesinos (The Saint of Killers), quien ha puesto a Jesse en la mira.4
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="the_boys.html" class="ml-20"><img src="img/the_boys.webp" alt="the boys"></a>
+            <a href="destino_final.html" class="ml-20"><img src="img/destino_final_3.webp" alt="destino_final"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="kevin.html" class="ml-20"><img src="img/kevin.webp" alt="kevin"></a>
+            <a href="hasta_el_ultimo_hombre.html" class="ml-20"><img src="img/hasta_el_ultimo.webp" alt="hasta_el_ultimo_hombre"></a>
+            <a href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Men</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/mad_men.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qGK2caRBtp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=JTuGLMPCyu0" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small> Mad Men </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                            <option value="temp2">Temporada 2</option>
+                            <option value="temp3">Temporada 3</option>
+                            <option value="temp4">Temporada 4</option>
+                            <option value="temp5">Temporada 5</option>
+                            <option value="temp6">Temporada 6</option>
+                            <option value="temp7">Temporada 7</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capitulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small> Drama </small></h3><br>
+                <h3>Actores : <span>
+                        <a href="https://es.frwiki.wiki/wiki/Jon_Hamm" target="_blank" rel="noopener noreferrer">Jon
+                            Hamm</a>,
+                        <a href="https://es.frwiki.wiki/wiki/Elisabeth_Moss" target="_blank"
+                            rel="noopener noreferrer">Elisabeth Moss</a>,
+                        <a href="https://es.wikipedia.org/wiki/J._K._Simmons" target="_blank" rel="noopener noreferrer">
+                            Vincent Kartheiser</a>
+                        <a href="https://es.frwiki.wiki/wiki/January_Jones" target="_blank"
+                            rel="noopener noreferrer">January Jones</a>
+                        <a href="https://es.frwiki.wiki/wiki/Christina_Hendricks" target="_blank"
+                            rel="noopener noreferrer"> Christina Hendricks</a>
+                        <a href="https://es.frwiki.wiki/wiki/John_Slattery" target="_blank" rel="noopener noreferrer">
+                            John Slattery</a>
+                    </span></h3><br>
+
+                <p> Don Draper es el protagonista de la serie. Un hombre muy reconocido dentro del mundillo de la publicidad en la Gran Manzana, director creativo y socio de la compañía Sterling & Cooper. Muy seguro de sí mismo, es uno de los profesionales
+                    de más prestigio de su compañía pero, a su vez, es un personaje manipulador y misterioso, avergonzado de su pasado marcado por la miseria.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="monk.html" class="ml-20"><img src="img/monk.webp" alt="monk"></a>
+            <a href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher"></a>
+            <a href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="22_jump_street.html" class="ml-20"><img src="img/22_jump_street_2.webp" alt="22 jump street"></a>
+            <a href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+        </section>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22 Jump Street</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qP755JkDxyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=ahNJNXKFOgw" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small>  22 Jump Street (Comando Especial 2) </small></h3><br>
+                <h3>Duración : <small> 	111 minutos </small></h3><br>
+                <h3>Género : <small> Comedia, Acción</small></h3><br>
+                <h3>Actores : <span> <a href="https://es.wikipedia.org/wiki/Jonah_Hill" target="_blank" rel="noopener noreferrer">Jonah Hill</a>, <a href="https://es.wikipedia.org/wiki/Channing_Tatum" target="_blank" rel="noopener noreferrer">Channing Tatum</a> </span></h3><br>
+                <p>Después de la exitosa operación contra el narcotráfico en una escuela, los oficiales Schmidt (Jonah Hill) y Jenko (Channing Tatum), deben infiltrase, esta vez, en una Universidad. A pesar de que la relación entre ambos ha mejorado mucho,
+                    cuando llegan al campus ambos toman diferentes caminos inesperados: Jenko encuentra a su alma gemela en el equipo de fútbol y se une a este, mientras que Schmidt se adentra en el teatro bohemio gracias a una joven que conoce durante
+                    una obra de teatro. Ambos deberán descubrir si realmente son dos niños de instituto "creciditos" que van a la Universidad, o si son capaces de mantener una relación madura y profesional como compañeros de equipo policial.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="zombie_land.html" class="ml-20"><img src="img/zombie_land_minatura.webp" alt="zombie_land"></a>
+            <a href="legally_blonde.html" class="ml-20"><img src="img/legalmente_rubia.webp" alt="legally_blonde"></a>
+            <a href="casino_royale.html" class="ml-20"><img src="img/casino_royale.webp" alt="007"></a>
+            <a href="john_wick.html" class="ml-20"><img src="img/john_wick.webp" alt="john wick"></a>
+            <a href="hasta_el_ultimo_hombre.html" class="ml-20"><img src="img/hasta_el_ultimo.webp" alt="hasta el ultimo hombre"></a>
+        </section>
+    </main>
+</body>
+
+</html>

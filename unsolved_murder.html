@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsolved Murder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/unsolved_murder.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/m3cGuxRr3fI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/embed/m3cGuxRr3fI?controls=0" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Título : <small> The Unsolved Murder of Beverly Lynn Smith </small></h3><br>
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                            <option value="" disabled selected>Seleccionar Temporada</option>
+                            <option value="temp1">Temporada 1</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capítulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                            <option value="" disabled selected>Seleccionar capítulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br>
+                <h3>Género : <small>Documental</small></h3><br>
+                <h3>Actores : <span>
+                        <a href="" rel="noopener noreferrer">Beverly Lynn Smith</a>,
+                        <a href="" rel="noopener noreferrer">Doug Smith</a>,
+                        <a href="" rel="noopener noreferrer">Alan Date Smith</a>,
+
+                    </span></h3><br>
+                <p>Un asesinato sin resolver que ha durado más de cuatro decadas. Una amistad que nació del amor por la pesca se convertirá en algo siniestro. Una infame táctica policial. Este documental seriado es una historia sinuosa que explora el enigma
+                    implacable de la búsqueda de la justicia, a través de relatos de conocidos, entrevistas a expertos, archivos familiares y el acceso único a personajes clave.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="salvajes.html" class="ml-20"><img src="./img/salvajes.carrusel.jfif" alt="the boys"></a>
+            <a href="destino_final.html" class="ml-20"><img src="./img/destino_final_3.webp" alt="destino_final_3"></a>
+            <a href="hasta_el_ultimo_hombre.html" class="ml-20"><img src="./img/hasta_el_ultimo.webp" alt="hasta_el_ultimo_hombre"></a>
+            <a href="mad_men.html" class="ml-20"><img src="./img/mad_men.webp" alt="mad_men"></a>
+            <a href="la_octava.html" class="ml-20"><img src="./img/la_octava.webp" alt="la_octava"></a>
+            <a href="preacher.html" class="ml-20"><img src="./img/preacher.webp" alt="preacher"></a>
+        </section>
+    </main>
+</body>
+
+</html>

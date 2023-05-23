@@ -1,0 +1,294 @@
+#perfil {
+    border-bottom: 1px solid red;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-10 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: auto;
+}
+
+#fotoperfil {
+    width: 75%;
+    text-align: center;
+}
+
+#fotoperfil img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.margen {
+    margin-top: 10px;
+}
+
+#datos input {
+    padding: 2px;
+}
+
+form {
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#botones {
+    display: block;
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+main {
+    animation: fadein 1s;
+    width: 80%;
+    margin: 100px;
+    margin-top: 80px;
+    margin-bottom: 14px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.label {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+.transferencia {
+    margin-top: 4px;
+}
+
+#opcion_trans {
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#cupon {
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+input {
+    background-color: #2e2e2e;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+button:hover {
+    color: black;
+}
+
+#cancelar {
+    background-color: grey;
+}
+
+select {
+    font-size: 16px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+}
+
+#div-metodospago {
+    margin-left: 10px;
+}
+
+#cbu {
+    margin-left: 10px;
+}
+
+
+/*animacion*/
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#mensaje {
+    text-align: center;
+    color: red;
+}
+
+@media screen and (min-width: 48em) {
+    #div-email {
+        display: flex;
+    }
+    #div-contraseña {
+        display: flex;
+    }
+    #div-telefono {
+        display: flex;
+    }
+    #div-nuevacontraseña {
+        display: flex;
+    }
+    #div-repetircontraseña {
+        display: flex;
+    }
+    .w-10 {
+        text-align: center;
+    }
+    #fotoperfil {
+        width: 20%;
+    }
+    button {
+        width: 50%;
+    }
+    #botones {
+        padding: 40px;
+        text-align: center;
+    }
+    .label {
+        margin-top: 0px;
+        display: inline;
+    }
+    #div-numerotarjeta {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    #numero_tarjeta {
+        width: 48%;
+    }
+    #div-fechavenc {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    #fecha_venaño {
+        width: 25%;
+    }
+    #fecha_ven {
+        width: 25%;
+    }
+    #div-titular {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    #titular {
+        width: 48%;
+    }
+    #div-cod {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    #cod_seguridad {
+        width: 48%;
+    }
+    #div-fecha {
+        width: 50%;
+    }
+    #id-tarjeta {
+        margin: 10px;
+    }
+    #div-tarjeta {
+        display: flex;
+    }
+    #div-metodospago {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    #contenido {
+        display: flex;
+    }
+    #columna {
+        display: block;
+    }
+    #columna2 {
+        display: block;
+    }
+    #pagos {
+        width: 40%;
+    }
+    #datos {
+        width: 420px;
+        height: 100px;
+        padding: 20px;
+        display: inline;
+    }
+    button {
+        width: 30%;
+    }
+    #div-numerotarjeta {
+        display: block;
+    }
+    #numero_tarjeta {
+        width: 100%;
+    }
+    #fecha_venaño {
+        width: 50%;
+    }
+    #fecha_ven {
+        width: 50%;
+    }
+    #div-titular {
+        display: block;
+    }
+    #titular {
+        width: 100%;
+    }
+    #div-fechavenc {
+        display: block;
+        margin: 10px;
+    }
+    #fecha_venaño {
+        width: 49%;
+    }
+    #fecha_ven {
+        display: inline-block;
+        width: 49%;
+    }
+    #label-cod {
+        width: 50%;
+    }
+    #div-cod {
+        display: inline-block;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    #cod_seguridad {
+        width: 20%;
+    }
+    #div-fecha {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+/*fin de animacion*/

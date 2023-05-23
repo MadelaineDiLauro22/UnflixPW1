@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salvajes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/salvajes.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img id="logo" src="img/logo.png" alt="logo"></li>
+                <a href="javascript:void(0)" id="home">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/home_white_24dp.svg" alt="home"><span class="pull-left">Home</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="series">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/theaters_white_24dp.svg" alt="series"> <span class="pull-left">Series</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="movies">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/movie_filter_white_24dp.svg" alt="peliculas"><span class="pull-left"> Peliculas</span></div>
+                    </li>
+                </a>
+                <a href="./perfil.html">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/account_circle_white_24dp.svg" alt="perfil"><span class="pull-left">Perfil</span></div>
+                    </li>
+                </a>
+                <a href="javascript:void(0)" id="logoutButton">
+                    <li>
+                        <div class="item"><img class="pull-right" src="img/logout_white_24dp.svg" alt="logout"><span class="pull-left">Logout</span></div>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="logo_mobile">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <a class="desplegable"></a>
+    </header>
+    <main>
+        <section id="movie_content">
+            <article id="video">
+                <div class="contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hMBU8XDR290" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a class="mt-20" id="comenzardesktop" href="https://www.youtube.com/watch?v=zhIUws65-lY" target="_blank">Comenzar</a>
+            </article>
+            <article id="description">
+                <h3>Titulo : <small> Salvajes </small></h3>
+                <br />
+                <div class="select_temp">
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-temporada">Temporadas:</label>
+                        <select name="selector-temporada" id="selector-temporada" class="selector_items">
+                          <option value="" disabled selected>Seleccionar Temporada</option>
+                          <option value="temp1">Temporada 1</option>
+                          <option value="temp2">Temporada 2</option>
+                        </select>
+                    </form>
+                    <form action="" class="form_selector pl-0 m-0">
+                        <label for="selector-capitulo">Capitulos</label>
+                        <select name="selector-capitulo" id="selector-capitulo" class="selector_items">
+                          <option value="" disabled selected>Seleccionar Capitulo</option>
+                        </select>
+                    </form>
+                </div>
+                <br />
+                <h3>Género : <small> Drama, Suspenso</small></h3>
+                <br />
+                <h3>
+                    Actores :
+                    <span>
+              <a
+                href="https://es.wikipedia.org/wiki/Sarah_Pidgeon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sarah Pidgeon</a
+              >,
+
+              <a
+                href="https://www.imdb.com/name/nm10119720/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mia Healey</a
+              >,
+              <a
+                href="https://es.wikipedia.org/wiki/Erana_James"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Erana James</a
+              >,
+
+              <a
+                href="https://en.wikipedia.org/wiki/Helena_Howard"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Helena Howard</a
+              >,
+
+              <a
+                href="https://en.wikipedia.org/wiki/Reign_Edwards"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Reign Edwards</a
+              >,
+
+              <a
+                href="https://www.imdb.com/name/nm7318700/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Shannon Berry</a
+              >,
+
+              <a
+                href="https://es.wikipedia.org/wiki/Sophia_Ali"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Sophia Ali</a
+              >,
+
+              <a
+                href="https://es.wikipedia.org/wiki/Jenna_Clause"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jenna Clause</a
+              >,
+
+              <a
+                href="https://es.wikipedia.org/wiki/Rachel_Griffiths"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Rachel Griffiths</a
+              >,
+
+              <a
+                href="https://en.wikipedia.org/wiki/David_Sullivan_(actor)"
+                target="_blank"
+                rel="noopener noreferrer"
+                >David Sullivan</a
+              >,
+
+              <a
+                href="https://en.wikipedia.org/wiki/Troy_Winbush"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Troy Winbush</a
+              >
+            </span>
+                </h3>
+                <br />
+                <p>
+                    Unas adolescentes, de orígenes radicalmente diferentes, se encuentran varadas en una isla remota, sin saber que acaban de convertirse en sujetos de un elaborado experimento social.
+                </p>
+            </article>
+        </section>
+        <h3>Similares</h3>
+        <section id="similares" class="carrusell">
+            <a href="the_boys.html" class="ml-20"><img src="img/the_boys.webp" alt="the boys" /></a>
+            <a href="preacher.html" class="ml-20"><img src="img/preacher.webp" alt="preacher" /></a>
+            <a href="unsolved_murder.html" class="ml-20"><img src="img/unsolver_murder.webp" alt="unsolver murder" /></a>
+            <a href="mad_men.html" class="ml-20"><img src="img/mad_men.webp" alt="mad_men" /></a>
+            <a href="destino_final.html" class="ml-20"><img src="img/destino_final_3.webp" alt="destino_final" /></a>
+        </section>
+    </main>
+</body>
+
+</html>
